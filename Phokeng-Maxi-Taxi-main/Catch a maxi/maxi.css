@@ -1,0 +1,167 @@
+
+body {
+    
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+}
+
+img, #loginCommuter, #signUpCommuter, #signInCommuter, #commuterBack, #signUp, #signIn, #login, #back :hover {
+
+    cursor: pointer;
+
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(255, 200, 0)
+}
+
+h3 {
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.myIcons {
+    display: flex;
+    justify-content: center;
+    margin-top: -70px;
+}
+
+.container {
+    display: flex;
+    padding: 30px;
+    margin: 100px;
+    
+}
+
+#div_form_login {
+
+    display: flex;
+    padding: 30px;
+    margin: 100px;
+    background-image: url('./images/supernova.png');
+    border-radius: 25px;
+    display: none;
+
+}
+#commuter_formLogin {
+
+    display: flex;
+    padding: 30px;
+    margin: 100px;
+    background-image: url('./images/supernova.png');
+    border-radius: 25px;
+    display: none;
+
+}
+
+.sign__form {
+    width: 250px;
+    height: 30px
+}
+
+
+
+
+
+.driver_data, .commuter_data {
+    padding: 5px
+}
+
+.form__driver, .form__driverLogin, .form__commuter_login {
+    display: none;
+}
+
+.form__commuter {
+    display: none;
+}
+
+.icon_commuter, .icon__taxi {
+    margin-left: 100px;
+    text-align: center;
+    padding: 40px;
+}
+
+.h3 {
+    height: 80vh;
+    margin-top: 70px;
+}
+
+.driver_dashB, .commuterDashB {
+    width: 100%;
+    height: 400px;
+    /* Adjust the height as needed */
+}
+
+.simulate {
+    width: 80px;
+    height: 35px;
+    display: flex;
+    text-align: center;
+    background-color: chocolate;
+    border-radius: 8%;
+    padding: 10px;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+}
+
+.driver_name {
+    padding: 30px;
+}
+
+#div_form {
+
+    background-image: url('./images/supernova.png');
+    height: 20em;
+    width: 20em;
+    padding-top: 5em;
+    padding-left: 3em;
+    border-radius: 26;
+    border-radius: 50PX;
+
+}
+#commuter_form{
+
+    background-image: url('./images/supernova.png');
+    height: 20em;
+    width: 20em;
+    padding-top: 5em;
+    padding-left: 3em;
+    border-radius: 26;
+    border-radius: 50PX;
+
+}
+#login{
+
+    margin-left: 10px;
+
+}
+
+#loginCommuter{
+
+    margin-left: 10px;
+}
+
+#signUp, #signIn, #login, #back{
+
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    margin-top: 30px;
+
+}
+#loginCommuter, #signUpCommuter, #signInCommuter, #commuterBack {
+
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    margin-top: 30px;
+
+}
